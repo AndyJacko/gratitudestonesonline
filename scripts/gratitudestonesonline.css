@@ -1,0 +1,140 @@
+@charset "utf-8";
+* { padding:0px; margin:0px; }
+* html #nav { left: 200px; }
+
+/*HTML ENTITIES*/
+body { font-family: Arial; overflow-y: scroll; background: #231f20; color:#9e9fa3; }
+a { font-weight: bold; color:#9e9fa3; }
+img { border:none; }
+p { padding-bottom:15px; text-align:justify; }
+h3 { color:#71a539; }
+button { cursor:hand; cursor:pointer; clear:both; border:solid 2px #FFF; border-bottom-right-radius:10px; border-top-left-radius:10px; background:#71a539; text-align:center; color:#FFF; font-weight:bold; padding:5px; box-shadow: 5px 5px 10px #111; text-shadow: 2px 2px 2px #111; }
+
+/*GENERAL CLASSES*/
+.clearfix { clear:both; }
+.aligncenter { text-align:center; }
+.justify { text-align:justify; }
+.button2 { cursor:hand; cursor:pointer; clear:both; border:solid 2px #FFF; border-bottom-right-radius:10px; border-top-left-radius:10px; background:#990000; text-align:center; color:#FFF; font-weight:bold; padding:5px; box-shadow: 5px 5px 10px #111; text-shadow: 2px 2px 2px #111; }
+.msg { font-weight: bold; color: #F00; }
+
+#welcome { font-size: 36px; text-align: center; text-shadow: 5px 5px 5px #000;}
+
+/*MAIN PAGE LAYOUT*/
+#mainContainer { width: 100%; margin:auto; min-width: 800px;  }
+#header { width:100%; height:80px; padding-top: 4px; padding-bottom: 8px; }
+#footer { width:100%; height:40px; padding-top: 4px; padding-bottom: 4px; }
+#content { padding-left: 204px; padding-right: 204px; }
+#content .column { position: relative; float: left; }
+#con { width: 100%; }
+#nav { width: 200px; right: 200px; margin-left: -100%; }
+#ads { width: 200px; margin-right: -200px; }
+#bookmarking { position:absolute; top:2px; right:5px; }
+#likenshare { color:#9e9fa3; font-weight: bold; font-size: 24px; margin-bottom:7px; }
+
+/*HEADER LAYOUT*/
+#headerBox { width: 100%; margin:auto; }
+#headerContent { padding:10px; height:50px; border-bottom: 6px solid #71a539; position:relative; box-shadow: 0px 5px 10px #111; }
+#logo { width:430px; bottom:-10px; position:absolute; text-align:right; }
+#logotext { color:#71a539; font-weight: bold; font-size: 36px; }
+#logotext a { color:#71a539; font-weight: bold; font-size: 36px; text-decoration: none; }
+#loa { font-size: 16px; font-weight: bold; }
+
+/*FOOTER LAYOUT*/
+#footerBox { width: 100%; margin:auto; }
+#footerContent { margin-top:10px; padding:10px 10px 20px; height:30px; border-top: 6px solid #9e9fa3; font-size: 10px; position:relative; box-shadow: 0px -5px 10px #111; }
+#aog { position:absolute; left:15px; top:-7px; text-align:left; font-size: 26px; font-weight: bold; }
+#biy { font-size: 18px; font-weight: bold; }
+#dnm { position:absolute; right:5px; top:7px; text-align:right; }
+#dnm a { color: #71a539; font-size: 12px; }
+
+/*NAV LAYOUT*/
+#navBox { width: 100%; margin:auto; }
+#navContent { padding:10px; background: #71a539; border-top-right-radius:15px; border-bottom-right-radius:15px; box-shadow: 5px 5px 10px #111; color: #FFF; }
+#navContent li{ list-style: none inside; padding:2px 2px 10px 10px; }
+#navContent p{ font-weight: bold; padding-top: 10px; padding-bottom: 10px; }
+#navContent a{ padding-top: 10px; padding-bottom: 10px; color: #000000; font-size: 12px; }
+
+/*ADS LAYOUT*/
+#adsBox { width: 100%; margin:auto; }
+#adsContent { text-align:center; padding:10px; border-top-left-radius:15px; border-bottom-left-radius:15px; box-shadow: -5px 5px 10px #111; background: #9e9fa3; }
+#adsContent img { width:120px; text-align:center; border: 3px solid #71a539; box-shadow: 2px 2px 5px #111; border-bottom-right-radius:10px; border-top-left-radius:10px; background:#000; }
+#adsContent a { color:#000; font-size:10px; }
+#adsContent li { margin:10px 0 10px 0; }
+
+/*CONTENT LAYOUT*/
+#contentBox { padding-left:4px; padding-right:4px; }
+#contentContent { padding:10px; }
+
+/* HOME PAGE */
+#stonescontainer { width:90%; text-align:center; margin:auto; padding:14px; border:solid 2px #71a539; border-bottom-left-radius:15px; border-top-right-radius:15px; box-shadow: 5px 5px 10px #111; }
+
+/* GRATITUDE STONES PAGE */
+.gstones { display:inline-block; width:120px; height:140px; text-align:center; margin:20px; }
+.gstonesimg { border: 3px solid #71a539; box-shadow: 5px 5px 10px #111; border-bottom-left-radius:10px; border-top-right-radius:10px;}
+.gstonesimg2 { border: 3px solid #99061D; box-shadow: 5px 5px 10px #111; border-bottom-left-radius:10px; border-top-right-radius:10px; }
+
+/* ABOUT US PAGE */
+#andyjackophoto { margin-right:14px; border: 3px solid #71a539; box-shadow: 5px 5px 10px #111; border-bottom-left-radius:10px; border-top-right-radius:10px; }
+
+/* FREE EBOOKS PAGE */
+#ebookscontainer { width:90%; text-align:center; margin:auto; padding:14px; border:solid 2px #71a539; border-bottom-left-radius:15px; border-top-right-radius:15px; box-shadow: 5px 5px 10px #111; }
+.ebook { display:inline-block; text-align:center; margin:15px; }
+.ebook img { border: 3px solid #71a539; box-shadow: 5px 5px 10px #111; border-bottom-left-radius:10px; border-top-right-radius:10px;}
+
+/* LINKS PAGE */
+.linkcols { -moz-column-count:2; -webkit-column-count:2; column-count:2; -moz-column-gap:15px; -webkit-column-gap:15px; column-gap:15px; }
+.linkcols ul{ margin: 0 0 15px; list-style: none inside; }
+.linkcols li{ padding:10px; }
+
+/* SITEMAP PAGE */
+#sitemap ul{ margin: 0 0 15px; list-style: none inside; }
+#sitemap li{ padding:10px; }
+
+/* CONTACT PAGE */
+.spacer { clear:both; height:1px; }
+.myform { margin:0 auto; width:600px; padding:14px; border-bottom-left-radius:15px; border-top-right-radius:15px; box-shadow: 5px 5px 10px #111; }
+#formstyle { border:solid 2px #71a539; }
+#formstyle h1 { font-size:14px; font-weight:bold; margin-bottom:8px; }
+#formstyle p { font-size:11px; color:#666666; margin-bottom:20px; border-bottom:solid 1px #b7ddf2; padding-bottom:10px; }
+#formstyle label { display:block; font-weight:bold; text-align:right; width:140px; float:left; }
+#formstyle .small { color:#666666; display:block; font-size:11px; font-weight:normal; text-align:right; width:140px; }
+#formstyle input { float:left; font-size:12px; padding:4px 2px; border:solid 1px #71a539; width:400px; margin:2px 0 20px 10px; background:#9e9fa3; }
+#formstyle select { float:left; font-size:12px; padding:4px 2px; border:solid 1px #71a539; width:400px; margin:2px 0 20px 10px; background:#9e9fa3; }
+#formstyle textarea { float:left; font-size:12px; padding:4px 2px; border:solid 1px #71a539; width:400px; margin:2px 0 20px 10px; background:#9e9fa3; }
+#formstyle button { clear:both; margin-left:150px; }
+
+/* FREE ARTICLES PAGE */
+#freearticles ul{ margin: 0 0 15px; list-style: none inside; }
+#freearticles li{ padding:10px; }
+
+/* ALL STONES PAGE */
+#allstonescenter { width:90%; margin:auto; text-align:center; padding:14px; border:solid 2px #71a539; border-bottom-left-radius:15px; border-top-right-radius:15px; box-shadow: 5px 5px 10px #111; }
+
+/* I WANT THIS STONE PAGE */
+#stonecart { width:460px; margin:auto; padding:14px; border:solid 2px #71a539; border-bottom-left-radius:15px; border-top-right-radius:15px; box-shadow: 5px 5px 10px #111; }
+#priceinfo { width:190px; float:right; text-align:justify; }
+#priceinfo p { font-size: 12px; }
+#ppprice { display:inline; }
+#priceinfo select { font-size:10px; padding:1px; border:solid 1px #71a539; width:120px; background:#9e9fa3; }
+
+/* EDIT STONE PAGE */
+#editstone { width:600px; margin:auto; padding:14px; border:solid 2px #71a539; border-bottom-left-radius:15px; border-top-right-radius:15px; box-shadow: 5px 5px 10px #111; text-align:center; }
+
+/* 404 PAGE */
+#page404 ul{ margin: 0 0 15px; list-style: none inside; }
+#page404 li{ padding:10px; }
+
+/* FAQ PAGE */
+#faq ul{ margin: 0 0 15px; list-style: none inside; }
+#faq li{ padding:10px; }
+
+/* AD MANAGER */
+.ad { display:inline-block; margin:10px; }
+.ad img { width:120px; height:120px; text-align:center; border: 3px solid #71a539; box-shadow: 2px 2px 5px #111; border-bottom-right-radius:10px; border-top-left-radius:10px; background:#000; }
+.ad2 { display:inline-block; margin:10px; }
+.ad2 img { width:120px; height:120px; text-align:center; border: 3px solid #FF0000; box-shadow: 2px 2px 5px #111; border-bottom-right-radius:10px; border-top-left-radius:10px; background:#000; }
+
+/* FB UPDATES */
+.update { display:inline-block; margin:10px; font-size: 10px; font-weight: bold; width:30%;}
+.update2 { display:inline-block; margin:10px; font-size: 10px; font-weight: bold; color: #F00; width:30%; }
+.update2 a { font-size: 10px; font-weight: bold; color: #F00; }

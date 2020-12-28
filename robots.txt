@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /cp/
+Disallow: /ebooks/
+Disallow: /scripts/
+Disallow: /Templates/
+Sitemap: http://gratitudestonesonline.com/sitemap.xml
